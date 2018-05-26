@@ -13,7 +13,7 @@ with open(version_py, 'r') as f:
     version = d['__version__']
 
 setup(
-    name = 'pyclibrary',
+    name = 'pyclibrary_aagallag',
     description = 'C binding automation',
     version = version,
     long_description = '''PyCLibrary includes 1) a pure-python C parser and
@@ -24,10 +24,10 @@ and can evaluate typedefs down to their fundamental C types +
 pointers/arrays/function signatures. Pyclibrary can automatically build c
 structs/unions and perform type conversions when calling functions via
 cdll/windll.''',
-    author = 'PyCLibrary Developers',
-    author_email = 'm.dartiailh@gmail.com',
-    url = 'http://github.com/MatthieuDartiailh/pyclibrary',
-    download_url = 'http://github.com/MatthieuDartiailh/pyclibrary/tarball/master',
+    author = 'Aaron Gallagher',
+    author_email = 'aaron.b.gallagher@gmail.com',
+    url = 'http://github.com/aagallag/pyclibrary',
+    download_url = 'http://github.com/aagallag/pyclibrary/tarball/master',
     keywords = 'C binding automation',
     license = 'MIT',
     classifiers=[
